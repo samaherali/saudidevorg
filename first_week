@@ -1,5 +1,14 @@
-#Day1
 
 document.write("مرحبا بكم عالم الجافا سكريبت")
 
 document.write(5+6)
+
+
+var a = 3
+document.write(a)
+
+//project End of week 
+
+var a = 10
+
+document.write('Hello, this is my first challenge and I will do it a times I will do it'+ a +' I will learn JavaScript.')

@@ -1,0 +1,5 @@
+#Day1
+
+document.write("مرحبا بكم عالم الجافا سكريبت")
+
+document.write(5+6)

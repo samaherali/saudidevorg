@@ -1,0 +1,56 @@
+first excersise:
+
+var count =0;
+while (count < 10) {
+document.write(count) ;
+count++ ;
+}
+for(var count =0 ; count < 10 ; count++){
+document.write(count);
+}
+
+code in run:
+0123456789
+
+-----------------------------------------
+
+var i,j,multi;
+for(i = 1, j = 6 ; i < 4 ; i++, j--){
+multi = i * j;
+document.write(multi+"<br>");
+}
+
+code in run:
+6
+10
+12
+--------------------------------------------
+
+project
+
+var sum=3, n = 0, i;
+
+for(i= 0; i < 6; i++) {
+sum = sum + i;
+document.write("sum ="+sum+"<br>");
+  while (i < 5) {
+ i++;
+ if (i == 3) {
+ continue;
+ }
+ n += i;
+ document.write("n="+n+" i="+i+"<br>");
+}
+    while (i >= 5) {
+ document.write( "hello "+i);
+      break;
+} 
+}
+
+code in run:
+sum =3
+n=1 i=1
+n=3 i=2
+n=7 i=4
+n=12 i=5
+hello 5

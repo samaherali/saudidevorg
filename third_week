@@ -1,1 +1,17 @@
+project
 
+var browser="chrome";
+
+if(browser=="Edge"){
+message ="You've got the Edge!";
+
+}
+
+else if(browser=="chrome"|| browser=="firefox" || browser=="Safari" || browser=="Opera"){
+message ="Okay we support these browsers too";
+
+}
+else if{
+message ="We hope that this page looks ok!'";
+}
+alert(message);
